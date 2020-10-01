@@ -1,0 +1,27 @@
+{
+  "name": "graphql-gateway",
+  "version": "1.0.0",
+  "description": "GraphQL gateway",
+  "main": "graphql-gateway.js",
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
+  "author": "Bryan Kegley <hi@bryankegley.me>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@apollo/federation": "^0.19.1",
+    "@apollo/gateway": "^0.19.1",
+    "apollo-link-http": "^1.5.14",
+    "apollo-server-lambda": "^2.16.1",
+    "date-fns": "^1.30.1",
+    "dotenv": "^8.0.0",
+    "graphql": "^14.2.1",
+    "graphql-import-node": "^0.0.4",
+    "graphql-tools": "^4.0.4",
+    "mongo": "*",
+    "node-fetch": "^2.3.0"
+  }
+}
